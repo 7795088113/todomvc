@@ -11,7 +11,7 @@ angular.module('todomvc')
 
 		var todos = $scope.todos = store.todos;
 
-		$scope.newTodo = '';
+		$scope.newTodo = 'vinay';
 		$scope.editedTodo = null;
 
 		$scope.$watch('todos', function () {
